@@ -1,0 +1,144 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+    background-color: #dbcece6f;
+}
+header
+{
+    background-color: #0dd2d2;
+    color: white;
+    padding:20px;
+    position: relative;
+    top: o;
+    width: 100%;
+    border-radius:0;
+}
+nav ul
+{
+    list-style: none;
+    padding: 0;
+}
+nav ul li
+{
+    display: inline;
+    margin: 035px;
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+section
+{
+    padding: 20px;
+}
+img
+{
+    width: 300px;
+    border-radius:10px;
+}
+img.round-image
+{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+#introduction
+{
+    display: flex;
+    align-items: center;/*align text vertically with image*/
+    gap: 200px;/*add space between image and text*/
+    padding-left: 5%;
+
+}
+#introduction.click
+{
+    display: flex;
+    flex-direction: column;
+}
+.text
+{
+    font-size: 18px;
+    max-width: 400px;
+}
+#achievements
+{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.achieve
+{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.achieve #content
+{
+    display: flex;
+    flex-direction: column;
+
+}
+button
+{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: brown;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+button:hover
+{
+    background-color:#0056b3;
+}
+.social-icon
+{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #438c99;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.social-icon:hover
+{
+    background-color: #236770;
+}
+.container
+{
+    background: rgba(red, green, blue, alpha);
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input,textarea
+{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid;
+    border-radius: 5px;
+}
+button:hover
+{
+    background: #0056b3;
+}
+footer
+{
+    background-color:olivedrab;
+    color:blue;
+    padding: 25px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-radius: 30px;
+    font-style: italic;
+}
